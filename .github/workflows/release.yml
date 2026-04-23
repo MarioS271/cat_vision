@@ -35,7 +35,7 @@ jobs:
       - name: 📂 Stage release artifacts
         run: |
           mkdir staging
-          find fabric/build/libs forge/build/libs \
+          find fabric/build/libs neoforge/build/libs \
             \( -name "*-sources.jar" -o \( -name "*.jar" ! -name "*-dev*" ! -name "*-sources*" \) \) \
             -exec cp {} staging/ \;
 
