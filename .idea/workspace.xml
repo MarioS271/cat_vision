@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -84,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "1.16.5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programmieren/Java/cat_vision",
     "project.structure.last.edited": "SDKs",
@@ -128,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776876569638</updated>
       <workItem from="1776876572010" duration="11533000" />
-      <workItem from="1776929925153" duration="7328000" />
+      <workItem from="1776929925153" duration="7638000" />
     </task>
     <servers />
   </component>

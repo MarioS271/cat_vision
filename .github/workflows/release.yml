@@ -35,12 +35,6 @@ jobs:
       - name: 🚀 Publish to GitHub Releases, Modrinth & CurseForge
         uses: Kir-Antipov/mc-publish@v3.0
         with:
-          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-
-          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
-          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-
           github-tag: ${{ github.ref_name }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
