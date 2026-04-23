@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/modpage_images/catvision_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modpage_images/catvision_enabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,8 @@
       <updated>1776876569638</updated>
       <workItem from="1776876572010" duration="11533000" />
       <workItem from="1776929925153" duration="7638000" />
-      <workItem from="1776945385025" duration="2385000" />
+      <workItem from="1776945385025" duration="2690000" />
+      <workItem from="1776949727482" duration="23000" />
     </task>
     <servers />
   </component>
