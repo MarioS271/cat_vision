@@ -32,17 +32,26 @@ jobs:
       - name: 🛠️ Build
         run: ./gradlew build
 
+      - name: 📂 Stage release artifacts
+        run: |
+          mkdir staging
+          find fabric/build/libs forge/build/libs \
+            \( -name "*-sources.jar" -o \( -name "*.jar" ! -name "*-dev*" ! -name "*-sources*" \) \) \
+            -exec cp {} staging/ \;
+
       - name: 🚀 Publish to GitHub Releases, Modrinth & CurseForge
         uses: Kir-Antipov/mc-publish@v3.3
         with:
+#          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
+#          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
           github-tag: ${{ github.ref_name }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-          files: |
-            fabric/build/libs/cat_vision-fabric-*.jar
-            forge/build/libs/cat_vision-forge-*.jar
-            !fabric/build/libs/cat_vision-fabric-*-dev*.jar
-            !forge/build/libs/cat_vision-forge-*-dev*.jar
+          files: staging/*.jar
 
           name: CatVision ${{ github.ref_name }}
           version: ${{ github.ref_name }}

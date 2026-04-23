@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/modpage_images/catvision_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modpage_images/catvision_enabled.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
@@ -58,18 +60,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MarioS271"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MarioS271&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:MarioS271/cat_vision",
-    "accountId": "be6ea255-064d-4d39-9fab-2974d89bda73"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MarioS271/cat_vision&quot;,
+    &quot;accountId&quot;: &quot;be6ea255-064d-4d39-9fab-2974d89bda73&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -80,26 +82,26 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.cat_vision [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.cat_vision [:fabric:runClient].executor": "Run",
-    "Gradle.cat_vision [:forge:clean].executor": "Run",
-    "Gradle.cat_vision [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.cat_vision [runClient].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "1.16.5",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programmieren/Java/cat_vision",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.38390803",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.cat_vision [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cat_vision [:fabric:runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cat_vision [:forge:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cat_vision [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cat_vision [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.16.5&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmieren/Java/cat_vision&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38390803&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programmieren\Java\cat_vision" />
@@ -116,7 +118,7 @@
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\java\net\marios271\cat_vision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,6 +138,7 @@
       <updated>1776876569638</updated>
       <workItem from="1776876572010" duration="11533000" />
       <workItem from="1776929925153" duration="7638000" />
+      <workItem from="1776945385025" duration="2028000" />
     </task>
     <servers />
   </component>
