@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[36,)"
+loaderVersion = "[47,)"
 license = "${mod_license}"
 issueTrackerURL = "${mod_issues_link}"
 
@@ -15,7 +15,7 @@ displayURL = "${mod_homepage_link}"
 [[dependencies.cat_vision]]
 modId = "forge"
 mandatory = true
-versionRange = "[36,)"
+versionRange = "[47,)"
 ordering = "NONE"
 side = "CLIENT"
 
@@ -25,6 +25,6 @@ config = "cat_vision.forge.mixins.json"
 [[dependencies.cat_vision]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.20.1,1.21)"
 ordering = "NONE"
 side = "CLIENT"

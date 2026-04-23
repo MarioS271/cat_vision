@@ -34,16 +34,6 @@ dependencies {
     forge "net.minecraftforge:forge:$rootProject.forge_version"
     modImplementation "me.shedaniel.cloth:cloth-config-forge:$rootProject.cloth_config_forge_version"
 
-    // Mixin's ServiceLoader eagerly inspects MixinServiceLaunchWrapper on JDK 17+, which
-    // references LaunchClassLoader. Forge uses ModLauncher at runtime, but the LW class
-    // must still be resolvable for ServiceLoader.getConstructor() to succeed.
-    // Exclude LWJGL 2.x (org.lwjgl.lwjgl) that launchwrapper pulls in transitively — it
-    // conflicts with Forge's LWJGL 3.2.2 (both live in the org.lwjgl package, causing a
-    // sealing violation when LWJGL 3 tries to seal the package the 2.x JAR already opened).
-    runtimeOnly("net.minecraft:launchwrapper:1.12") {
-        exclude group: "org.lwjgl.lwjgl"
-    }
-
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }
@@ -82,13 +72,3 @@ remapJar {
     inputFile.set shadowJar.archiveFile
 }
 
-// Forge 1.16.5 / LWJGL 3.2.x crashes on Java 25 due to package sealing changes.
-// Override executable after Loom configures its run tasks; avoids the javaLauncher/executable conflict.
-afterEvaluate {
-    def java17 = javaToolchains.launcherFor {
-        languageVersion = JavaLanguageVersion.of(17)
-    }.get().executablePath.asFile.absolutePath
-    tasks.withType(JavaExec).configureEach {
-        executable = java17
-    }
-}
