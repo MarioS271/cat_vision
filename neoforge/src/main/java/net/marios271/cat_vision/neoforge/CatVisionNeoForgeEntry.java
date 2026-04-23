@@ -1,16 +1,17 @@
-package net.marios271.cat_vision.forge;
+package net.marios271.cat_vision.neoforge;
 
 import net.minecraft.client.Minecraft;
-import net.minecraftforge.client.ConfigScreenHandler;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.event.entity.EntityJoinLevelEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLPaths;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.loading.FMLPaths;
+import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.marios271.cat_vision.CatVision;
 import net.marios271.cat_vision.config.ConfigScreen;
 import net.marios271.cat_vision.event.DisconnectListener;
@@ -18,20 +19,17 @@ import net.marios271.cat_vision.event.EndTickListener;
 import net.marios271.cat_vision.event.JoinListener;
 import net.marios271.cat_vision.event.RespawnListener;
 import net.marios271.cat_vision.handler.KeyInputHandler;
-import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 
 @Mod(CatVision.MOD_ID)
-public final class CatVisionForgeEntry {
-    public CatVisionForgeEntry() {
+public final class CatVisionNeoForgeEntry {
+    public CatVisionNeoForgeEntry(IEventBus modEventBus, ModContainer modContainer) {
         CatVision.init(FMLPaths.CONFIGDIR.get().toFile());
 
-        ModLoadingContext.get().registerExtensionPoint(
-                ConfigScreenHandler.ConfigScreenFactory.class,
-                () -> new ConfigScreenHandler.ConfigScreenFactory((mc, parent) -> ConfigScreen.create(parent, CatVision.CONFIG))
-        );
+        modContainer.registerExtensionPoint(IConfigScreenFactory.class,
+                (mc, parent) -> ConfigScreen.create(parent, CatVision.CONFIG));
 
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onRegisterKeyMappings);
-        MinecraftForge.EVENT_BUS.register(this);
+        modEventBus.addListener(this::onRegisterKeyMappings);
+        NeoForge.EVENT_BUS.register(this);
     }
 
     private void onRegisterKeyMappings(RegisterKeyMappingsEvent event) {
@@ -39,9 +37,7 @@ public final class CatVisionForgeEntry {
     }
 
     @SubscribeEvent
-    public void onClientTick(TickEvent.ClientTickEvent event) {
-        if (event.phase != TickEvent.Phase.END)
-            return;
+    public void onClientTickPost(ClientTickEvent.Post event) {
         Minecraft client = Minecraft.getInstance();
         EndTickListener.onEndTick(client);
         KeyInputHandler.onKeyTick(client);

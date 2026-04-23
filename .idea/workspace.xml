@@ -4,23 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="">
+    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="1.20.1 working">
+      <change afterPath="$PROJECT_DIR$/neoforge/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___forge__forge.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/config/ConfigScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/config/ConfigScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/net/marios271/cat_vision/forge/CatVisionForgeEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/net/marios271/cat_vision/forge/CatVisionForgeEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/net/marios271/cat_vision/forge/mixin/TransformationMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/cat_vision.forge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/cat_vision.forge.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/net/marios271/cat_vision/forge/CatVisionForgeEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/cat_vision.forge.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/pack.mcmeta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +51,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="cat_vision" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cat_vision" type="f1a62948:ProjectNode" />
-                <item name="forge" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cat_vision" type="f1a62948:ProjectNode" />
-                <item name="forge" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -66,7 +61,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="1.20.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,26 +88,32 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.cat_vision [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.cat_vision [:fabric:runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.cat_vision [:forge:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.cat_vision [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.cat_vision [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programmieren/Java/cat_vision&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38390803&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.cat_vision [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.cat_vision [:fabric:runClient].executor": "Run",
+    "Gradle.cat_vision [:forge:clean].executor": "Run",
+    "Gradle.cat_vision [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.cat_vision [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.cat_vision [runClient].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programmieren/Java/cat_vision",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.38390803",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programmieren\Java\cat_vision" />
@@ -129,7 +130,7 @@
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\java\net\marios271\cat_vision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
+  <component name="RunManager" selected="Application.Minecraft Client (:neoforge)">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,8 +152,18 @@
       <workItem from="1776929925153" duration="7638000" />
       <workItem from="1776945385025" duration="2690000" />
       <workItem from="1776949727482" duration="990000" />
-      <workItem from="1776956956398" duration="7043000" />
+      <workItem from="1776956956398" duration="12226000" />
+      <workItem from="1776976219814" duration="500000" />
     </task>
+    <task id="LOCAL-00001" summary="1.20.1 working">
+      <option name="closed" value="true" />
+      <created>1776970891593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776970891593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Temporarily remove auto-deploy to modrinth and curseforge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temporarily remove auto-deploy to modrinth and curseforge" />
+    <MESSAGE value="1.20.1 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.20.1 working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
