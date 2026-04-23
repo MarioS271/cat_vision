@@ -39,16 +39,14 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: |
-            fabric/build/libs/cat_vision-fabric-+([0-9]).+([0-9])*.jar
-            forge/build/libs/cat_vision-forge-+([0-9]).+([0-9])*.jar
-          files-secondary: |
-            fabric/build/libs/cat_vision-fabric-*-sources.jar
-            forge/build/libs/cat_vision-forge-*-sources.jar
+            fabric/build/libs/cat_vision-fabric-*.jar
+            forge/build/libs/cat_vision-forge-*.jar
+            !fabric/build/libs/cat_vision-fabric-*-dev*.jar
+            !forge/build/libs/cat_vision-forge-*-dev*.jar
 
           name: CatVision ${{ github.ref_name }}
           version: ${{ github.ref_name }}
           version-type: release
-          changelog-file: CHANGELOG.md*
 
           game-versions: 1.16.5
           loaders: |
