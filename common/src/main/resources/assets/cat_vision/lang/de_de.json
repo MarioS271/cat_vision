@@ -1,0 +1,14 @@
+{
+    "key.categories.cat_vision": "CatVision",
+    "key.cat_vision.toggle_client_night_vision": "Nachtsicht umschalten",
+
+    "message.cat_vision.activated": "§l§7[§8Cat§6Vision§7]§r Cat Vision wurde angeschalten",
+    "message.cat_vision.deactivated": "§l§7[§8Cat§6Vision§7]§r Cat Vision wurde abgeschalten",
+
+    "text.cat_vision.config.title": "CatVision-Konfiguration",
+    "text.cat_vision.config.category": "CatVision",
+    "text.cat_vision.config.option.remember_nv": "Nachtsicht merken",
+    "text.cat_vision.config.option.auto_nv": "Nachtsicht automatisch einschalten",
+    "text.cat_vision.config.option.blindness_immunity": "Immunität gegen Blindheit",
+    "text.cat_vision.config.option.nausea_immunity": "Immunität gegen Übelkeit"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cat_vision.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cat_vision.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cat_vision.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cat_vision.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cat_vision.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cat_vision.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cat_vision.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cat_vision.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cat_vision.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cat_vision.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/cat_vision.forge.test.iml" />
+    </modules>
+  </component>
+</project>

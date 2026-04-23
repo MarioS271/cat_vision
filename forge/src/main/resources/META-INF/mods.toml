@@ -1,28 +1,30 @@
 modLoader = "javafml"
 loaderVersion = "[36,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+license = "${mod_license}"
+issueTrackerURL = "${mod_issues_link}"
 
 [[mods]]
 modId = "cat_vision"
 version = "${version}"
 displayName = "CatVision"
-authors = "Me!"
-description = '''
-This is an example description! Tell everyone what your mod is about!
-'''
-#logoFile = ""
+authors = "${mod_author}"
+description = "${mod_description}"
+logoFile = "${mod_logo_file_path}"
+displayURL = "${mod_homepage_link}"
 
 [[dependencies.cat_vision]]
 modId = "forge"
 mandatory = true
 versionRange = "[36,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
+
+[[mixins]]
+config = "cat_vision.forge.mixins.json"
 
 [[dependencies.cat_vision]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.5,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"

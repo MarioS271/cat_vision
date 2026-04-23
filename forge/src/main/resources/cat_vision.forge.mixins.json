@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.marios271.cat_vision.forge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+      "TransformationMixin"
+  ]
+}

@@ -2,15 +2,15 @@ plugins {
     id 'com.gradleup.shadow'
 }
 
-loom {
-    forge {
-        mixinConfig "cat_vision.mixins.json"
-    }
-}
-
 architectury {
     platformSetupLoomIde()
     forge()
+}
+
+loom {
+    forge {
+        mixinConfig "cat_vision.forge.mixins.json"
+    }
 }
 
 configurations {
@@ -32,16 +32,44 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:$rootProject.forge_version"
+    modImplementation "me.shedaniel.cloth:cloth-config-forge:$rootProject.cloth_config_forge_version"
+
+    // Mixin's ServiceLoader eagerly inspects MixinServiceLaunchWrapper on JDK 17+, which
+    // references LaunchClassLoader. Forge uses ModLauncher at runtime, but the LW class
+    // must still be resolvable for ServiceLoader.getConstructor() to succeed.
+    // Exclude LWJGL 2.x (org.lwjgl.lwjgl) that launchwrapper pulls in transitively — it
+    // conflicts with Forge's LWJGL 3.2.2 (both live in the org.lwjgl package, causing a
+    // sealing violation when LWJGL 3 tries to seal the package the 2.x JAR already opened).
+    runtimeOnly("net.minecraft:launchwrapper:1.12") {
+        exclude group: "org.lwjgl.lwjgl"
+    }
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }
 
 processResources {
-    inputs.property 'version', project.version
+    // Forge's root-resource loader forbids paths with '/' in logoFile, so use a bare filename.
+    def props = [
+        version            : project.version,
+        mod_license        : rootProject.mod_license,
+        mod_author         : rootProject.mod_author,
+        mod_description    : rootProject.mod_description,
+        mod_logo_file_path : "icon.png",
+        mod_homepage_link  : rootProject.mod_homepage_link,
+        mod_issues_link    : rootProject.mod_issues_link
+    ]
+    inputs.properties props
 
     filesMatching('META-INF/mods.toml') {
-        expand version: inputs.properties.version
+        expand props
+    }
+
+    from(project(":common").sourceSets.main.resources)
+
+    // Copy the icon to the JAR root so Forge can load it as a root resource.
+    from(project(":common").file("src/main/resources/assets/cat_vision/icon.png")) {
+        rename { "icon.png" }
     }
 }
 
@@ -52,4 +80,15 @@ shadowJar {
 
 remapJar {
     inputFile.set shadowJar.archiveFile
+}
+
+// Forge 1.16.5 / LWJGL 3.2.x crashes on Java 25 due to package sealing changes.
+// Override executable after Loom configures its run tasks; avoids the javaLauncher/executable conflict.
+afterEvaluate {
+    def java17 = javaToolchains.launcherFor {
+        languageVersion = JavaLanguageVersion.of(17)
+    }.get().executablePath.asFile.absolutePath
+    tasks.withType(JavaExec).configureEach {
+        executable = java17
+    }
 }

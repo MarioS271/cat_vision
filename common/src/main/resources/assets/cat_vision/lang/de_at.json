@@ -1,0 +1,14 @@
+{
+    "key.categories.cat_vision": "CatVision",
+    "key.cat_vision.toggle_client_night_vision": "Nachtsicht umschoitn",
+
+    "message.cat_vision.activated": "§l§7[§8Cat§6Vision§7]§r Cat Vision wuad angschoitn",
+    "message.cat_vision.deactivated": "§l§7[§8Cat§6Vision§7]§r Cat Vision wuad ogschoitn",
+
+    "text.cat_vision.config.title": "CatVision-Konfiguration",
+    "text.cat_vision.config.category": "CatVision",
+    "text.cat_vision.config.option.remember_nv": "Nochtsicht merkn",
+    "text.cat_vision.config.option.auto_nv": "Nochtsicht automatisch eischoitn",
+    "text.cat_vision.config.option.blindness_immunity": "Immunität gegn Blindheit",
+    "text.cat_vision.config.option.nausea_immunity": "Immunität gegn Üblkeit"
+}
