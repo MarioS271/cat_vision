@@ -23,8 +23,8 @@ To view the old mod, visit [Modrinth](https://modrinth.com/mod/catvision-legacy)
 - German (Austrian)
 
 ### Download here:
-- [Modrinth](https://modrinth.com/mod/cat_vision)
-- [Curseforge](https://curseforge.com/minecraft/mc-mods/cat_vision)
+- [Modrinth](https://modrinth.com/mod/catvision)
+- [Curseforge](https://curseforge.com/minecraft/mc-mods/catvision)
 
 <br><hr><br>
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
