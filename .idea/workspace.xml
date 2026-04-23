@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="" />
+    <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +53,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MarioS271"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:MarioS271/cat_vision",
+    "accountId": "be6ea255-064d-4d39-9fab-2974d89bda73"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -72,7 +88,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programmieren/Java/cat_vision/common/src/main/java/net/marios271/cat_vision",
+    "last_opened_file_path": "D:/Programmieren/Java/cat_vision",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.38390803",
@@ -81,6 +97,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\Java\cat_vision" />
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\java\net\marios271\cat_vision" />
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\resources\assets\cat_vision" />
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\resources" />
@@ -113,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776876569638</updated>
       <workItem from="1776876572010" duration="11533000" />
-      <workItem from="1776929925153" duration="5152000" />
+      <workItem from="1776929925153" duration="5853000" />
     </task>
     <servers />
   </component>
