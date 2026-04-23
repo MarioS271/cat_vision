@@ -42,12 +42,6 @@ jobs:
       - name: 🚀 Publish to GitHub Releases, Modrinth & CurseForge
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-#          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
-#          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-
-#          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
-#          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-
           github-tag: ${{ github.ref_name }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -56,9 +50,3 @@ jobs:
           name: CatVision ${{ github.ref_name }}
           version: ${{ github.ref_name }}
           version-type: release
-
-          game-versions: 1.16.5
-          loaders: |
-            fabric
-            forge
-          java: 8
