@@ -1,3 +1,5 @@
+runConfigurations/
+shelf/
 workspace.xml
 tasks.xml
 deployment.xml
