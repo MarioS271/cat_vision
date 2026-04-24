@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="1.20.1 working">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___neoforge__neoforge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/event/EndTickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/event/EndTickListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_at.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_at.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +79,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
