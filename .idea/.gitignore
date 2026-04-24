@@ -1,6 +1,8 @@
-/workspace.xml
-/tasks.xml
-/deployment.xml
-/jarRepositories.xml
-/misc.xml
-/modules.xml
+runConfigurations/
+shelf/
+workspace.xml
+tasks.xml
+deployment.xml
+jarRepositories.xml
+misc.xml
+modules.xml
