@@ -19,7 +19,7 @@ public class EndTickListener {
         if (client.player.hasEffect(MobEffects.BLINDNESS) && config.blindness_immunity)
             client.player.removeEffect(MobEffects.BLINDNESS);
 
-        if (client.player.hasEffect(MobEffects.CONFUSION) && config.nausea_immunity)
-            client.player.removeEffect(MobEffects.CONFUSION);
+        if (client.player.hasEffect(MobEffects.NAUSEA) && config.nausea_immunity)
+            client.player.removeEffect(MobEffects.NAUSEA);
     }
 }

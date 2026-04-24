@@ -1,5 +1,5 @@
 {
-    "key.categories.cat_vision": "CatVision",
+    "key.category.cat_vision.cat_vision": "CatVision",
     "key.cat_vision.toggle_client_night_vision": "Toggle night vision",
 
     "message.cat_vision.activated": "§l§7[§8Cat§6Vision§7]§r Enabled Cat Vision",

@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5510f1-f055-4455-9a81-b9ed2b5f94c3" name="Changes" comment="1.20.1 working">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___neoforge__neoforge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/event/EndTickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/event/EndTickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/marios271/cat_vision/handler/KeyInputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_at.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_at.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/de_de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/cat_vision/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +83,7 @@
     "Gradle.cat_vision [:forge:clean].executor": "Run",
     "Gradle.cat_vision [:forge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
     "Gradle.cat_vision [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.cat_vision [:neoforge:runClient].executor": "Run",
     "Gradle.cat_vision [runClient].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,8 +97,8 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programmieren/Java/cat_vision",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38390803",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
@@ -109,7 +119,57 @@
       <recent name="D:\Programmieren\Java\cat_vision\common\src\main\java\net\marios271\cat_vision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:neoforge)">
+  <component name="RunManager" selected="Gradle.cat_vision [:fabric:runClient]">
+    <configuration name="cat_vision [:fabric:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cat_vision [:neoforge:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,6 +179,12 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.cat_vision [:fabric:runClient]" />
+        <item itemvalue="Gradle.cat_vision [:neoforge:runClient]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -132,7 +198,8 @@
       <workItem from="1776945385025" duration="2690000" />
       <workItem from="1776949727482" duration="990000" />
       <workItem from="1776956956398" duration="12226000" />
-      <workItem from="1776976219814" duration="1666000" />
+      <workItem from="1776976219814" duration="1730000" />
+      <workItem from="1777008248327" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="1.20.1 working">
       <option name="closed" value="true" />
