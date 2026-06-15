@@ -10,5 +10,6 @@
     "text.cat_vision.config.option.remember_nv": "Remember Night Vision",
     "text.cat_vision.config.option.auto_nv": "Automatically enable Night Vision",
     "text.cat_vision.config.option.blindness_immunity": "Blindness Immunity",
-    "text.cat_vision.config.option.nausea_immunity": "Nausea Immunity"
+    "text.cat_vision.config.option.nausea_immunity": "Nausea Immunity",
+    "text.cat_vision.config.option.darkness_immunity": "Darkness Immunity"
 }
