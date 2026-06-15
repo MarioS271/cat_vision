@@ -5,7 +5,7 @@ A minecraft mod which gives you Night Vision, even if you aren't a server operat
 With this mod, you can give yourself night vision with the click of a button.
 The mod also has options to automatically enable night vision.
 And the best part: you don't need any permission, just use it anywhere!
-(And don't tell anyone, but you can even supress effects like Blindness or Nausea!)
+(And don't tell anyone, but you can even suppress effects like Blindness or Nausea!)
 
 This is a rewrite of CatVision 1.4, now known as CatVision Legacy, in order to add compatibility for earlier versions like 1.16.5 or 1.20.1.
 To view the old mod, visit [Modrinth](https://modrinth.com/mod/catvision-legacy) or [Curseforge](https://curseforge.com/minecraft/mc-mods/catvision-legacy).
