@@ -21,5 +21,8 @@ public class EndTickListener {
 
         if (client.player.hasEffect(MobEffects.NAUSEA) && config.nausea_immunity)
             client.player.removeEffect(MobEffects.NAUSEA);
+
+        if (client.player.hasEffect(MobEffects.DARKNESS) && config.darkness_immunity)
+            client.player.removeEffect(MobEffects.DARKNESS);
     }
 }

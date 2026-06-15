@@ -10,5 +10,6 @@
     "text.cat_vision.config.option.remember_nv": "Nochtsicht merkn",
     "text.cat_vision.config.option.auto_nv": "Nochtsicht automatisch eischoitn",
     "text.cat_vision.config.option.blindness_immunity": "Immunität gegn Blindheit",
-    "text.cat_vision.config.option.nausea_immunity": "Immunität gegn Üblkeit"
+    "text.cat_vision.config.option.nausea_immunity": "Immunität gegn Üblkeit",
+    "text.cat_vision.config.option.darkness_immunity": "Immunität gegn Dunklheit"
 }
