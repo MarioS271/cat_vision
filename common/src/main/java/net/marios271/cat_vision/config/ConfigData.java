@@ -15,6 +15,7 @@ public class ConfigData {
     public boolean auto_nv = true;
     public boolean blindness_immunity = true;
     public boolean nausea_immunity = true;
+    public boolean darkness_immunity = true;
 
     public boolean has_nv = false;
 

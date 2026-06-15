@@ -35,6 +35,11 @@ public class ConfigScreen {
             .setSaveConsumer(v -> config.nausea_immunity = v)
             .build());
 
+        category.addEntry(entryBuilder.startBooleanToggle(Component.translatable("text.cat_vision.config.option.darkness_immunity"), config.darkness_immunity)
+            .setDefaultValue(true)
+            .setSaveConsumer(v -> config.darkness_immunity = v)
+            .build());
+
         builder.setSavingRunnable(config::save);
 
         return builder.build();
