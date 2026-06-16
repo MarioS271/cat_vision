@@ -13,10 +13,13 @@ public class EndTickListener {
 
         ConfigData config = CatVision.CONFIG;
 
+        boolean isSingleplayer = client.getSingleplayerServer() != null
+            && !client.getSingleplayerServer().isPublished();
+
         if (!client.player.hasEffect(MobEffects.NIGHT_VISION) && config.has_nv)
             client.player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, Integer.MAX_VALUE));
 
-        if (client.player.hasEffect(MobEffects.BLINDNESS) && config.blindness_immunity)
+        if (client.player.hasEffect(MobEffects.BLINDNESS) && config.blindness_immunity && isSingleplayer)
             client.player.removeEffect(MobEffects.BLINDNESS);
 
         if (client.player.hasEffect(MobEffects.CONFUSION) && config.nausea_immunity)
