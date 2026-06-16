@@ -11,5 +11,10 @@
     "text.cat_vision.config.option.auto_nv": "Automatically enable Night Vision",
     "text.cat_vision.config.option.blindness_immunity": "Blindness Immunity",
     "text.cat_vision.config.option.nausea_immunity": "Nausea Immunity",
-    "text.cat_vision.config.option.darkness_immunity": "Darkness Immunity"
+    "text.cat_vision.config.option.darkness_immunity": "Darkness Immunity",
+
+    "text.cat_vision.config.tooltip.blindness_disclaimer.1": "[!] Blindness Suppression only works on Singleplayer",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.2": "and not on LAN or multiplayer worlds, as suppressing",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.3": "blindness allows players to sprint, which they should",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.4": "not be able to do with the blindness effect."
 }
