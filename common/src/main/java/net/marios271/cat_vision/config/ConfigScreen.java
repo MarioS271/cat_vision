@@ -29,10 +29,10 @@ public class ConfigScreen {
             .setDefaultValue(true)
             .setSaveConsumer(v -> config.blindness_immunity = v)
             .setTooltip(
-                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.1"),
-                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.2"),
-                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.3"),
-                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.4")
+                Component.translatable("text.cat_vision.config.tooltip.blindness_disclaimer.1"),
+                Component.translatable("text.cat_vision.config.tooltip.blindness_disclaimer.2"),
+                Component.translatable("text.cat_vision.config.tooltip.blindness_disclaimer.3"),
+                Component.translatable("text.cat_vision.config.tooltip.blindness_disclaimer.4")
             )
             .build());
 
