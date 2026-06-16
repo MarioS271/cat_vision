@@ -28,6 +28,12 @@ public class ConfigScreen {
         category.addEntry(entryBuilder.startBooleanToggle(new TranslatableComponent("text.cat_vision.config.option.blindness_immunity"), config.blindness_immunity)
             .setDefaultValue(true)
             .setSaveConsumer(v -> config.blindness_immunity = v)
+            .setTooltip(
+                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.1"),
+                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.2"),
+                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.3"),
+                new TranslatableComponent("text.cat_vision.config.tooltip.blindness_disclaimer.4")
+            )
             .build());
 
         category.addEntry(entryBuilder.startBooleanToggle(new TranslatableComponent("text.cat_vision.config.option.nausea_immunity"), config.nausea_immunity)

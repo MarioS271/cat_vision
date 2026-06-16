@@ -10,5 +10,10 @@
     "text.cat_vision.config.option.remember_nv": "Nochtsicht merkn",
     "text.cat_vision.config.option.auto_nv": "Nochtsicht automatisch eischoitn",
     "text.cat_vision.config.option.blindness_immunity": "Immunität gegn Blindheit",
-    "text.cat_vision.config.option.nausea_immunity": "Immunität gegn Üblkeit"
+    "text.cat_vision.config.option.nausea_immunity": "Immunität gegn Üblkeit",
+
+    "text.cat_vision.config.tooltip.blindness_disclaimer.1": "[!] Immunität gegn Blindheit funktioniat nua in Oanzlspüla",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.2": "und ned in LAN-Wöltn oder Measpüla, weil die Untadrückung",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.3": "von Blindheit Spülan erlaubt, zu sprintn, was ma mit dem",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.4": "Blindheit-Effekt ned mochn kenna soit."
 }

@@ -10,5 +10,10 @@
     "text.cat_vision.config.option.remember_nv": "Nachtsicht merken",
     "text.cat_vision.config.option.auto_nv": "Nachtsicht automatisch einschalten",
     "text.cat_vision.config.option.blindness_immunity": "Immunität gegen Blindheit",
-    "text.cat_vision.config.option.nausea_immunity": "Immunität gegen Übelkeit"
+    "text.cat_vision.config.option.nausea_immunity": "Immunität gegen Übelkeit",
+
+    "text.cat_vision.config.tooltip.blindness_disclaimer.1": "[!] Immunität gegen Blindheit funktioniert nur in Einzelspieler",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.2": "und nicht in LAN-Welten oder Mehrspieler, da die Unterdrückung",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.3": "von Blindheit Spielern erlaubt, zu sprinten, was man mit dem",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.4": "Blindheit-Effekt nicht machen können sollte."
 }
