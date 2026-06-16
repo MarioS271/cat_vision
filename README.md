@@ -18,6 +18,8 @@ To view the old mod, visit [Modrinth](https://modrinth.com/mod/catvision-legacy)
 - Smart Client-Side Night Vision
 - Darkness/Blindness/Nausea Immunity
 
+> Note: Blindness Suppression is disabled in LAN and multiplayer worlds, as suppressing the blindness effect allows the player to sprint, which should not be possible while having the blindness effect.
+
 ### Languages:
 - English
 - German
