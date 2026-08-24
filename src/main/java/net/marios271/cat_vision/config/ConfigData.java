@@ -8,19 +8,27 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-public class ConfigData {
+public class ConfigData extends VisionSettings {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private transient File file;
 
     public boolean remember_nv = true;
-    public boolean auto_nv = true;
     public boolean blindness_immunity = true;
     public boolean nausea_immunity = true;
 	public boolean darkness_immunity = true;
 
     public boolean has_nv = false;
+
+    public Map<String, VisionSettings> dimension_overrides = new LinkedHashMap<>();
+
+    public VisionSettings forDimension(String dimension) {
+        VisionSettings override = dimension == null ? null : dimension_overrides.get(dimension);
+        return override != null ? override : this;
+    }
 
     public void save() {
         try (FileWriter writer = new FileWriter(file)) {
@@ -43,6 +51,7 @@ public class ConfigData {
             }
         }
         if (result == null) result = new ConfigData();
+        if (result.dimension_overrides == null) result.dimension_overrides = new LinkedHashMap<>();
         result.file = file;
         return result;
     }
