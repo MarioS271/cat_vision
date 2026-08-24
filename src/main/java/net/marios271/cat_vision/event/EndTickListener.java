@@ -2,6 +2,7 @@ package net.marios271.cat_vision.event;
 
 import net.marios271.cat_vision.CatVision;
 import net.marios271.cat_vision.config.ConfigData;
+import net.marios271.cat_vision.handler.VisionHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -12,6 +13,8 @@ public class EndTickListener {
             return;
 
         ConfigData config = CatVision.CONFIG;
+
+        VisionHandler.tick(client);
 
         boolean isSingleplayer = client.getSingleplayerServer() != null
             && !client.getSingleplayerServer().isPublished();

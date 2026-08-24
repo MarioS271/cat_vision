@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class ConfigData {
+public class ConfigData extends VisionSettings {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private transient File file;
@@ -21,6 +21,16 @@ public class ConfigData {
 	public boolean darkness_immunity = true;
 
     public boolean has_nv = false;
+
+    public void resetToDefaults() {
+        ConfigData defaults = new ConfigData();
+        remember_nv = defaults.remember_nv;
+        auto_nv = defaults.auto_nv;
+        blindness_immunity = defaults.blindness_immunity;
+        nausea_immunity = defaults.nausea_immunity;
+        darkness_immunity = defaults.darkness_immunity;
+        copyFrom(defaults);
+    }
 
     public void save() {
         try (FileWriter writer = new FileWriter(file)) {
