@@ -66,14 +66,11 @@ legacyForge {
 	}
 }
 
-// No mixins exist yet (cat_vision.mixins.json has empty "mixins"/"client").
-// moddev's reobfJar (ART) hard-fails looking for the refmap's .mappings.tsrg,
-// which the Mixin AP only emits when there is at least one mixin. Re-enable this
-// block as soon as the first @Mixin is added.
-//mixin {
-//	add(sourceSets.main.get(), "${prop("mod.id")}.mixins.refmap.json")
-//	config("${prop("mod.id")}.mixins.json")
-//}
+// These Forge versions run on SRG names, so the mixins need a refmap to find their targets.
+mixin {
+	add(sourceSets.main.get(), "${prop("mod.id")}.mixins.refmap.json")
+	config("${prop("mod.id")}.mixins.json")
+}
 
 repositories {
 	mavenCentral()

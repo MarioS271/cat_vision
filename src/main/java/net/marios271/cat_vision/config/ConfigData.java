@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class ConfigData {
+public class ConfigData extends VisionSettings {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private transient File file;
