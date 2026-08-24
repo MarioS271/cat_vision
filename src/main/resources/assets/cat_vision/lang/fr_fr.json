@@ -1,0 +1,22 @@
+{
+    "key.categories.cat_vision": "CatVision",
+    "key.category.cat_vision.cat_vision": "CatVision",
+    "key.cat_vision.toggle_client_night_vision": "Basculer la vision nocturne",
+    "key.cat_vision.open_config_screen": "Ouvrir la configuration",
+
+    "message.cat_vision.activated": "§l§7[§8Cat§6Vision§7]§r Cat Vision activé",
+    "message.cat_vision.deactivated": "§l§7[§8Cat§6Vision§7]§r Cat Vision désactivé",
+
+    "text.cat_vision.config.title": "Configuration de CatVision",
+    "text.cat_vision.config.category": "CatVision",
+    "text.cat_vision.config.option.remember_nv": "Mémoriser la vision nocturne",
+    "text.cat_vision.config.option.auto_nv": "Activer la vision nocturne automatiquement",
+    "text.cat_vision.config.option.blindness_immunity": "Immunité à la cécité",
+    "text.cat_vision.config.option.nausea_immunity": "Immunité à la nausée",
+    "text.cat_vision.config.option.darkness_immunity": "Immunité à l'obscurité",
+
+    "text.cat_vision.config.tooltip.blindness_disclaimer.1": "[!] La suppression de la cécité ne marche qu'en solo,",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.2": "pas en LAN ni en multijoueur : la supprimer permet de",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.3": "courir, ce qu'un joueur ne devrait pas pouvoir faire",
+    "text.cat_vision.config.tooltip.blindness_disclaimer.4": "sous l'effet de cécité."
+}

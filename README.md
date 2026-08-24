@@ -25,6 +25,7 @@ To view the old mod, visit [Modrinth](https://modrinth.com/mod/catvision-archite
 - English
 - German
 - German (Austrian)
+- French
 
 ### Download here:
 - [Modrinth](https://modrinth.com/mod/catvision)
