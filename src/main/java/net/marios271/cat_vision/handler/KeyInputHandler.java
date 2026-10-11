@@ -13,7 +13,9 @@ import net.minecraft.network.chat.Component;
 //?}
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import org.lwjgl.glfw.GLFW;
+//? < 26.3 {
+/*import org.lwjgl.glfw.GLFW;
+ *///?}
 
 public class KeyInputHandler {
     public static final String KEY_TOGGLE_CLIENT_NV = "key.cat_vision.toggle_client_night_vision";
@@ -28,14 +30,24 @@ public class KeyInputHandler {
 
     public static KeyMapping toggleNightVisionKey = new KeyMapping(
             KEY_TOGGLE_CLIENT_NV,
-            InputConstants.Type.KEYSYM,
-            GLFW.GLFW_KEY_COMMA,
+			//? < 26.3 {
+			/*InputConstants.Type.KEYSYM,
+			GLFW.GLFW_KEY_COMMA,
+			*///?} else {
+			InputConstants.Type.KEYBOARD,
+			InputConstants.KEY_COMMA,
+			//?}
             CAT_VISION_CATEGORY
     );
 	public static KeyMapping openConfigKey = new KeyMapping(
 			KEY_OPEN_CONFIG,
-			InputConstants.Type.KEYSYM,
+			//? < 26.3 {
+			/*InputConstants.Type.KEYSYM,
 			GLFW.GLFW_KEY_F12,
+			*///?} else {
+			InputConstants.Type.KEYBOARD,
+			InputConstants.KEY_F12,
+			//?}
 			CAT_VISION_CATEGORY
 	);
 
